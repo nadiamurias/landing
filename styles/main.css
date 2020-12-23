@@ -1,0 +1,17 @@
+.main {
+  height: 100vh;
+  background-color: #3cdbc0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
