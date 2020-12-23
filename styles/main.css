@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.menu-option {
+  margin-top: 10px;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 16px;
+}
+.link-blog {
+  text-decoration: none;
+  color: #4a4a4a;
+  margin: 10px 20px 13px;
+}
+.link-contact {
+  text-decoration: none;
+  color: #4a4a4a;
+}
 .main {
   height: 100vh;
   background-color: #3cdbc0;
@@ -6,10 +41,11 @@
   align-items: center;
 }
 .title {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   color: #ffffff;
   font-family: "Rubik", sans-serif;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
