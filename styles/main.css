@@ -35,7 +35,7 @@
 .link-blog {
   text-decoration: none;
   color: var(--text-color);
-  margin: 10px 20px 13px;
+  margin-right: 20px;
 }
 .link-contact {
   text-decoration: none;
@@ -63,6 +63,7 @@
     /*position: absolute;
     left: 30px;
     top: 20px;*/
+    margin: 20px;
     justify-content: flex-start;
     align-items: center;
   }
