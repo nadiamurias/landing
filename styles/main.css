@@ -60,14 +60,18 @@
 }
 @media all and (min-width: 768px) {
   .logo {
-    position: absolute;
+    /*position: absolute;
     left: 30px;
-    top: 20px;
+    top: 20px;*/
+    justify-content: flex-start;
+    align-items: center;
   }
   .menu-option {
     position: absolute;
     top: 40px;
     right: 30px;
+    justify-content: flex-end;
+    align-items: center;
   }
   .title {
     font-size: 40px;
