@@ -68,7 +68,7 @@
   }
   .menu-option {
     position: absolute;
-    top: 40px;
+    top: 20px;
     right: 30px;
     justify-content: flex-end;
     align-items: center;
