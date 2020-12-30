@@ -25,6 +25,7 @@
 }
 
 .menu-option {
+  text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 13px;
   display: flex;
@@ -36,10 +37,12 @@
   text-decoration: none;
   color: var(--text-color);
   margin-right: 20px;
+  padding: 5px;
 }
 .link-contact {
   text-decoration: none;
   color: var(--text-color);
+  padding: 5px;
 }
 .main {
   height: 100vh;
@@ -57,13 +60,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-transform: capitalize;
 }
 @media all and (min-width: 768px) {
   .logo {
     /*position: absolute;
     left: 30px;
     top: 20px;*/
-    margin: 20px;
+    margin: 20px 20px 20px 30px;
     justify-content: flex-start;
     align-items: center;
   }
@@ -71,6 +75,7 @@
     position: absolute;
     top: 20px;
     right: 30px;
+    margin: 30px;
     justify-content: flex-end;
     align-items: center;
   }
