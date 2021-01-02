@@ -36,12 +36,12 @@
   text-decoration: none;
   color: var(--text-color);
   margin-right: 20px;
-  padding: 5px;
+  padding: 10px;
 }
 .link-contact {
   text-decoration: none;
   color: var(--text-color);
-  padding: 5px;
+  padding: 10px;
 }
 .main {
   height: 100vh;
@@ -62,20 +62,19 @@
   text-transform: capitalize;
 }
 @media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .logo {
-    /*position: absolute;
-    left: 30px;
-    top: 20px;*/
-    margin: 20px 20px 20px 30px;
-    justify-content: flex-start;
-    align-items: center;
+    margin: 20px 30px;
   }
   .menu-option {
-    position: absolute;
-    top: 20px;
-    right: 30px;
     margin: 30px;
-    justify-content: flex-end;
+  }
+  .menu {
+    display: flex;
     align-items: center;
   }
   .title {
