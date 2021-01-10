@@ -1,0 +1,21 @@
+.main {
+  height: 100vh;
+  background-color: $background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: 40px;
+  height: 40px;
+  color: $white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  @media all and (min-width: 768px) {
+    font-size: 40px;
+  }
+}
